@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 80%;
+  min-height: 500px;
+  border: 1px solid #000;
+  margin: auto;
+}
+.nav {
+  width: 100%;
+  height: 50px;
+  border: 2px solid #000;
+  margin-top: 5px;
+  background-color: lightcoral;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  padding-top: 5px;
+  padding-right: 20px;
+}
+.nav ul li {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#home {
+  background-color: yellow;
+  padding: 5px 5px;
+}
+#home :hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  width: 100%;
+  height: 50px;
+  border: 2px solid #000;
+  margin-top: 5px;
+  background-color: aqua;
+  padding-left: 10px;
+}
+.slider {
+  width: 100%;
+  height: 250px;
+  border: 2px solid #000;
+  margin-top: 5px;
+  background-color: lightgreen;
+}
+.slider img {
+  width: 100%;
+  height: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.content {
+  width: 100%;
+  height: 250px;
+  border: 2px solid #000;
+  margin-top: 5px;
+  background-color: lightyellow;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.b1 {
+  width: 30%;
+  height: 90%;
+  border: 2px solid #000;
+  background-color: lightsalmon;
+}
+.b1 img {
+  width: 100%;
+  height: 100%;
+}
+.b1 img:hover {
+  width: 110%;
+  height: 110%;
+  transition: 0.5s;
+}
+
+.b2 {
+  background-color: lightskyblue;
+  width: 30%;
+  height: 90%;
+  border: 2px solid #000;
+}
+.b2 img {
+  width: 100%;
+  height: 100%;
+}
+.b2 img:hover {
+  width: 110%;
+  height: 110%;
+  transition: 0.5s;
+}
+.b3 {
+  background-color: lightpink;
+  width: 30%;
+  height: 90%;
+  border: 2px solid #000;
+}
+.b3 img {
+  width: 100%;
+  height: 100%;
+}
+.b3 img:hover {
+  width: 110%;
+  height: 110%;
+  transition: 0.5s;
+}
+.footer {
+  width: 100%;
+  height: 50px;
+  border: 2px solid #000;
+  margin-top: 5px;
+  background-color: lightgray;
+}
+.footer h1 {
+  text-align: center;
+  padding-top: 5px;
+}

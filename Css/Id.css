@@ -1,0 +1,29 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.box {
+  width: 80%;
+  height: 99vh;
+  margin: auto;
+  background-color: lightgrey;
+  border: 1px solid #000;
+}
+.box ul {
+  /* circle nigun gele ->none */
+  list-style: none;
+}
+.box ul li {
+  list-style-image: url("../Img/Headphones.jpg");
+  list-style-position: inside;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 10px;
+  background-color: lightblue;
+  text-align: center;
+  font-size: 20px;
+}
+.box ul li a {
+  text-decoration: none;
+}

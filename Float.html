@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <title>positioning example</title>
+    <style>
+      body {
+        height: 5000px;
+      }
+      .first {
+        width: 100px;
+        height: 100px;
+        background-color: teal;
+        position: relative;
+        float: left;
+      }
+      .second {
+        width: 100px;
+        height: 100px;
+        background-color: teal;
+        position: relative;
+        float: left;
+        left: 100px;
+        top: 100px;
+      }
+
+      .third {
+        width: 400px;
+        height: 200px;
+        background-color: teal;
+        position: relative;
+        float: left;
+        left: 100px;
+        top: 200px;
+        padding: 20px;
+      }
+      .ifirst {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+      }
+
+      .isecond {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        position: absolute;
+        left: 130px;
+        top: 130px;
+      }
+      .fourth {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: fixed;
+        left: 1000px;
+        top: 400px;
+      }
+      .fifth {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: sticky;
+        left: 100px;
+        top: 0px;
+        margin-top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <br />
+    <br />
+    <p>Good morning india</p>
+    <p>Good morning india</p>
+    <p>Good morning india</p>
+    <p>Good morning india</p>
+    <p>Good morning india</p>
+
+    <div class="first"></div>
+    <div class="second"></div>
+    <div class="third">
+      <div class="ifirst"></div>
+      <div class="isecond"></div>
+    </div>
+    <div class="fourth"></div>
+    <div class="fifth"></div>
+  </body>
+</html>
