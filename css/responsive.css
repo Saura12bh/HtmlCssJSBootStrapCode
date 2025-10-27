@@ -1,0 +1,26 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  /* width: 80%; */
+  height: 500px;
+  /* margin: auto; */
+  border: 1px solid #000;
+}
+.b1 {
+  border: 1px solid #000;
+  height: 100px;
+  width: 100px;
+}
+.b2 {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #000;
+}
+.b3 {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #000;
+}

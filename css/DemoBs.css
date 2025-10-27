@@ -1,0 +1,26 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#head {
+  color: red;
+}
+#b1 {
+  color: aliceblue;
+  font-weight: 900;
+}
+/* yani apn text center la anu shkto */
+/* #col-6 {
+  margin-top: 150px;
+} */
+
+#footer {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
